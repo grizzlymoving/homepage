@@ -1,3 +1,123 @@
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,19 +126,21 @@
     <title>Grizzly Moving - Professional Moving Services</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #eef2f3;
+            color: #333;
         }
         header {
-            background: #003366;
+            background: linear-gradient(90deg, #003366, #0055A5);
             color: white;
             padding: 20px;
             text-align: center;
             position: fixed;
             width: 100%;
             top: 0;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
         nav {
             display: flex;
@@ -30,43 +152,41 @@
             color: white;
             text-decoration: none;
             font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
         }
         .hero {
             text-align: center;
-            padding: 100px 20px;
+            padding: 120px 20px;
             background: url('https://source.unsplash.com/1600x600/?moving,truck') no-repeat center center/cover;
             color: white;
         }
         .hero h1 {
-            font-size: 3em;
+            font-size: 3.5em;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
         }
         .hero button {
             background: #ffcc00;
             border: none;
-            padding: 15px 30px;
+            padding: 15px 40px;
             font-size: 1.2em;
             cursor: pointer;
             margin-top: 20px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .hero button:hover {
+            background: #ff9900;
         }
         .section {
-            padding: 50px 20px;
+            padding: 60px 20px;
             text-align: center;
         }
         .services, .testimonials {
             display: flex;
             justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            width: 250px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-        }
-        footer {
-            background: #003366;
             color: white;
             text-align: center;
             padding: 20px;
